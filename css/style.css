@@ -2,6 +2,8 @@ body {
   background-color: rgb(239, 204, 210) !important;
   box-sizing: border-box;
   font-family: 'MillimetreRegular' !important; 
+  margin: 0;
+  
 }
 
 .navbar {
