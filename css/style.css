@@ -397,8 +397,9 @@ body {
 }   
 
 .right {
-  position: relative;
+  /* position: relative;
   top:90px;
+  padding-left: 100px; */
 }
 
 .left {
