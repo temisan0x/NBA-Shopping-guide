@@ -393,16 +393,4 @@ body {
 
   .left {
     margin-top:-80px;
-  }
-}   
-
-.right {
-  /* position: relative;
-  top:90px;
-  padding-left: 100px; */
-}
-
-.left {
-  position: relative;
-  right: 30px;
-}
+  }}
