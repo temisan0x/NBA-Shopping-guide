@@ -28,7 +28,7 @@
   </head>
   <body style="overflow-x:hidden;">
 
-    <nav class="navbar sticky-top navbar-expand-lg" style="width: 100vw;">
+    <nav class="navbar sticky-top navbar-expand-lg">
       <div class="container mt-2">
         <a class="navbar-brand" href="#"><img src="images/basketball-ball.png" alt="logo" width="50px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,17 +66,17 @@
             <h1>basketball..</h1>
           </div>
           <div class="hero_subtitle">
-            <div class="ball mt-4">
+            <div class="ball">
               <img src="images/34-348665_kevin-durant-lebron-james-nba-logo-removebg-preview.png" class="hero_bg" alt="hero" style="width: 50px !important;">
             </div>
             <h1 class="display-3">NBA Shopping Guide.</h1>
           </div>
-          <div class="search-box">
-            <div class="search">
-              <input type="text" id="box" placeholder="Search items.." class="search__box">
-              <i class="fas fa-search search__icon my-2" style="font-size: 18px;" id="icon" onclick="toggleShow()"></i>
-          </div>
-          </div>
+            <form action="" class="search-bar"  style="position: relative; z-index: 900;">
+            <input style="background-color: rgba(0,0,0,0.1);" type="search" name="search" pattern=".*\S.*" required>
+            <button class="search-btn" type="submit">
+              <span>Search</span>
+            </button>
+          </form>
         </div>
         <div class="left">
           <img src="images/jordan-removebg-preview.png" alt="" class="img">
