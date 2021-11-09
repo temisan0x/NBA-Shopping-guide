@@ -387,11 +387,21 @@ body {
     width: 40px;
   }
 
-  /* .search-box {
-    margin-top: 40%;
-  } */
+  .right {
+    margin-left: 0;
+  }
 
   .left {
-    margin-top:-180px;
+    margin-top:-80px;
   }
 }   
+
+.right {
+  position: relative;
+  top:90px;
+}
+
+.left {
+  position: relative;
+  right: 30px;
+}
