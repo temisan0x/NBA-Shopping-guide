@@ -142,6 +142,7 @@ transform: scale(0.9);
   }
 
   .search {
+    position: relative;
     margin-top: -10%;
     z-index: 2;
   }
@@ -199,6 +200,7 @@ transform: scale(0.9);
 }
 
 .search__box {
+  position: relative;
   float: left;
   width: 0;
   height: 4rem;
@@ -290,6 +292,7 @@ transform: scale(0.9);
 }
 
 @media (max-width: 768px) {
+
   .teams{
       flex-direction: row;
       flex-wrap: wrap;
@@ -304,5 +307,11 @@ transform: scale(0.9);
     width: 40px;
   }
 
+  .search-box {
+    margin-top: 40%;
+  }
 
+  .left {
+    margin-top:-230px;
+  }
 }   
