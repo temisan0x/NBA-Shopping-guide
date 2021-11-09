@@ -1,3 +1,4 @@
+
 body {
   background-color: rgb(239, 204, 210) !important;
   box-sizing: border-box;
@@ -127,7 +128,7 @@ transform: scale(0.9);
 .img {
   z-index:71;
   position: relative;
-
+  overflow-y: hidden;
 }
 
 @media (max-width: 768px) {
@@ -149,16 +150,12 @@ transform: scale(0.9);
   }
 
 
-.img {
+.img-responsive {
   position: absolute; 
-  z-index: 1; 
+  z-index: 900; 
   margin-right: 40px;
 }
 }   
-
-.right {
-  /* margin-top: 150x; */
-}
 
 .hero_title h1 {
   font-family: 'MillimetreRegular'; 
@@ -393,4 +390,6 @@ body {
 
   .left {
     margin-top:-80px;
+    position: relative;
+    left: -5px;
   }}
