@@ -146,13 +146,15 @@ transform: scale(0.9);
   .search {
     position: relative;
     margin-top: -10%;
-    z-index: 2;
+    z-index: 900;
   }
+
+  .search-bar
 
 
 .img-responsive {
   position: absolute; 
-  z-index: 900; 
+  z-index: 800; 
   margin-right: 40px;
 }
 }   
@@ -190,6 +192,8 @@ transform: scale(0.9);
 
 .search-bar {
 	display: flex;
+  position: relative;
+  z-index: 900;
 }
 body {
 	background: #f1f1f1;
