@@ -1,6 +1,7 @@
 body {
   background-color: rgb(239, 204, 210) !important;
   box-sizing: border-box;
+  font-family: 'MillimetreRegular'; 
 }
 
 .navbar {
@@ -70,6 +71,7 @@ body {
   transition: all .3s;
 }
 
+
 .btn-nav:active,
 .btn-nav:hover {
   outline: 0;
@@ -120,6 +122,13 @@ transform: scale(0.9);
   line-height: 2;
 }
 
+
+.img {
+  z-index:71;
+  position: relative;
+
+}
+
 @media (max-width: 768px) {
   .hero_section{
   flex-direction: column;   
@@ -134,7 +143,15 @@ transform: scale(0.9);
 
   .search {
     margin-top: -10%;
+    z-index: 2;
   }
+
+
+.img {
+  position: absolute; 
+  z-index: 1; 
+  margin-right: 40px;
+}
 }   
 
 .right {
@@ -169,7 +186,7 @@ transform: scale(0.9);
   width: 350px;
   height: auto;
   background-color: transparent;
-  border: 3px solid black;
+  border: 2px solid #F36525;
 /*   margin: 20vh auto; */
   position: absolute;
   top: 70%;
@@ -177,7 +194,7 @@ transform: scale(0.9);
   transform: translate(-50%, -50%);
   border-radius: 4rem;
   padding: 10px;
-  z-index: 1;
+  z-index: 810;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
@@ -210,6 +227,7 @@ transform: scale(0.9);
   background-color: #f1f2f6;
 } */
 
+
 .search__icon {
   box-sizing: border-box;
   float:right;
@@ -236,16 +254,15 @@ transform: scale(0.9);
 
 .show {
   width: 85%;
-  border: 1px solid red;
+  border: transparent;
 }
 
 .teams {
   height: 250px;
-  width: 800px;
+  width: 700px;
   background-color: #A00020;
   position: absolute;
   top: 90%;
-  z-index: 1;
   display: flex;
   left: 15px;
   box-shadow: rgba(29, 29, 31, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -277,6 +294,7 @@ transform: scale(0.9);
       flex-direction: row;
       flex-wrap: wrap;
       width: 170px;
+      margin-top: 10%;
       box-shadow: rgba(76, 80, 84, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   } 
 
@@ -285,5 +303,6 @@ transform: scale(0.9);
     cursor: pointer;
     width: 40px;
   }
+
 
 }   
